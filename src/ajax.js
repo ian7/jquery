@@ -649,7 +649,7 @@ jQuery.extend({
 		jqXHR.setRequestHeader(
 			"Accept",
 			s.dataTypes[ 0 ] && s.accepts[ s.dataTypes[0] ] ?
-				s.accepts[ s.dataTypes[0] ] + ( s.dataTypes[ 0 ] !== "*" ? ", " + allTypes + "; q=0.01" : "" ) :
+				s.accepts[ s.dataTypes[0] ] + ( s.dataTypes[ 0 ] !== "*" ? ", q=0.02" : "" ) :
 				s.accepts[ "*" ]
 		);
 
